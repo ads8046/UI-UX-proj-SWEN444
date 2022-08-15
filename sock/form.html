@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="reviewForm.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Submit Review</h2>
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Rating</label>
+      <div class="col-sm-10">
+        <!-- <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"> -->
+
+          <div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div>
+
+
+
+
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Comments:</label>
+      <div class="col-sm-10">          
+        <textarea id="w3review" name="w3review" rows="7" cols="70">
+
+		</textarea>
+      </div>
+    </div>
+
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <!-- <button type="submit" class="submit-btn btn-default">Submit</button> -->
+        <a class="btn btn-lg btn-primary" href="review.html" role="button">Submit
+        </a>
+      </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+	// vanilla js to add on submit event and render the same review page back
+	var btn = document.getElementsByClassName('submit-btn');
+
+
+	
+
+</script>
+

@@ -1,0 +1,23 @@
+{
+  "name": "swen-444-prototype",
+  "version": "1.0.0",
+  "description": "TEAM PROTOTYPE\r 1) Shubham Malhotra\r 2) David Posa",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsp9049/swen-444-prototype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsp9049/swen-444-prototype/issues"
+  },
+  "homepage": "https://github.com/dsp9049/swen-444-prototype#readme"
+}
